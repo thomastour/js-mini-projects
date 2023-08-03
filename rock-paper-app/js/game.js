@@ -52,7 +52,7 @@ function showResult() {
     }
 
 
-    // this function will update the score
+    
     if (result === 'You won') {
         score.wins += 1;
     } else if (result === 'You lost loser!') {
