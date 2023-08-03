@@ -56,10 +56,10 @@ body {
     align-items: center;
     border-radius: 50px;
     background-color: rgb(255, 255, 255);
-    margin: 0 auto; /* This centers the button horizontally */
-    width: 120px; /* You can adjust the width of the button */
-    height: 40px; /* You can adjust the height of the button */
-    font-size: 18px; /* You can adjust the font size of the button text */
+    margin: 0 auto; 
+    width: 120px; 
+    height: 40px; 
+    font-size: 18px; 
 }
 
 
@@ -68,5 +68,5 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-wrap: wrap; /* This ensures the buttons wrap to the next line if there's not enough space horizontally */
+    flex-wrap: wrap; 
   }
