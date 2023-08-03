@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./game.css" rel="stylesheet" type="text/css" media="all">
+    <title>Game!</title>
+</head>
+<body>
+
+<h3 class="title">Rock Paper Scissors</h3>
+
+<div id="playButton">   
+    <button class="move-button" data-move="rock"><img src ="./img/rock-emoji.png" class="move-icon "></button>
+    <button class="move-button" data-move="paper"><img src="./img/paper-emoji.png" class="move-icon"></button>
+    <button class="move-button" data-move="scissors"><img src="./img/scissors-emoji.png" class="move-icon "></button>
+    
+</div>
+
+<button id="resetScore">Reset Score</button>
+
+
+<p id="resultMessage" class="js-result"></p>
+<p class="js-moves">
+
+</p>
+
+    <script src="./game.js"></script>
+</body>
+</html>
